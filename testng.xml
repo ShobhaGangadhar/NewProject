@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite" parallel = "classes"  thread-count = "2" verbose = "5">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Testng.labs1.com.TC001"/>
+      <class name="com.Testng.labs1.com.TC002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Regression_Suite -->
